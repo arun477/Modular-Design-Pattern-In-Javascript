@@ -47,10 +47,12 @@ let dogsShelter = (function(){
   }
 
   // RETURNING OBJECT
-   let returnObj = {};
-   returnObj.findMyDog = findMyDog;
-   returnObj.takeDogHome = takeDogHome;
-   returnObj.admittMyDog = admittMyDog;
-  return returnObj;
+   
+  
+  return  {
+       findMyDog : findMyDog,
+       takeDogHome : takeDogHome,
+       admittMyDog :admittMyDog
+ };
 
 }())
